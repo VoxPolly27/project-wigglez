@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="692.8" height="818.915" viewBox="0 0 692.8 818.915">
+  <g id="Prism" transform="translate(-0.8 -0.7)">
+    <g id="XMLID_3855_" opacity="0.597">
+      <g id="XMLID_4246_" opacity="0.554">
+        <path id="XMLID_4244_" d="M346.5,0V620.6L0,467.7Z" transform="translate(0.8 0.7)" fill="rgba(247,89,101,0.76)" opacity="0.487"/>
+        <path id="XMLID_4245_" d="M0,0V620.6L346.4,467.7Z" transform="translate(347.2 0.7)" fill="rgba(247,89,101,0.76)"/>
+        <path id="XMLID_4248_" d="M346.4,242.9V0L0,90Z" transform="translate(0.8 378.4)" fill="rgba(247,89,101,0.76)"/>
+        <path id="XMLID_4249_" d="M0,242.9V0L346.4,90Z" transform="translate(347.2 378.4)" fill="rgba(247,89,101,0.76)"/>
+      </g>
+      <path id="XMLID_4240_" d="M176.828,167.78,346.4,0,0,152.614-4.765,350.293Z" transform="translate(347.199 468.4)" fill="#f75965" opacity="0.301"/>
+      <path id="XMLID_4239_" d="M341.714,351.215l4.685-197.9L0,0,282.718,293Z" transform="translate(0.8 468.4)" fill="#f75965" opacity="0.17"/>
+    </g>
+  </g>
+</svg>

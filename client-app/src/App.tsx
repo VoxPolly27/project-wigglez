@@ -2,10 +2,12 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Dashboard from './components/navigation/Nav';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo mt-2 text-gray-600" alt="logo" />
         <p className=' text-indigo-700 font-sans font-extralight to-blue-400 '>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -18,7 +20,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <Dashboard /> 
     </div>
   );
 }
