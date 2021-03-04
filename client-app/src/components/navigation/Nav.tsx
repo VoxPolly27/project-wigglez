@@ -1,11 +1,13 @@
 import React from 'react'
-import Logo from '../assets/LogoLight.svg';
+import Logo from '../assets/layer-2.svg';
+import Comet from '../assets/Comet.svg';
+
 
 const Dashboard = () => {
     return(
 
-        <div className='min-h-screen flex flex-col'>
-        <nav className="bg-opacity-60 bg-black">
+        <header className='min-h-screen flex flex-col'>
+            <nav className="bg-opacity-90 bg-gray-900 border-red-900 border-black border-l-8 shadow-2xl">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
@@ -14,32 +16,25 @@ const Dashboard = () => {
                 </div>
                 <div className="hidden md:block">
                     <div className="ml-10 flex items-baseline space-x-4">
-                    <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-bold">Dashboard</a>
+                                    <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-bold">Wiggle</a>
 
-                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Team</a>
-
-                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Projects</a>
-
-                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Calendar</a>
-
-                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Reports</a>
+                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Wigglez</a>
+                                                                                                
+                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Thoughts</a>
+                                                                                                
+                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Objects</a>
+                                                                                                
+                    <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-bold">Streams</a>
                     </div>
                 </div>
                 </div>
                 <div className="hidden md:block">
                 <div className="ml-4 flex items-center md:ml-6">
-                    <button className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
-                    <span className="sr-only">View notifications</span>
-                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                    </svg>
-                    </button>
-
                     <div className="ml-3 relative">
                     <div>
                         <button className="max-w-xs bg-gray-800 rounded-full flex items-center text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white" id="user-menu" aria-haspopup="true">
                         <span className="sr-only">Open user menu</span>
-                        <img className="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                        <img className="h-8 w-8 rounded-full" src={Comet} alt="" />
                         </button>
                     </div>
 
@@ -81,7 +76,7 @@ const Dashboard = () => {
             <div className="pt-4 pb-3 border-t border-gray-700">
                 <div className="flex items-center px-5">
                 <div className="flex-shrink-0">
-                    <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+                    <img className="h-10 w-10 rounded-full" src={Comet} alt="" />
                 </div>
                 <div className="ml-3">
                     <div className="text-base font-bold leading-none text-white">Tom Cook</div>
@@ -105,11 +100,11 @@ const Dashboard = () => {
             </div>
         </nav>
 
-        <main className='bg-white flex-1'>
+        <main className='flex-1 bg-gray-900'>
             <div className="max-w-full flex-1 mx-auto py-6 sm:px-6 lg:px-8">
             </div>
         </main>
-        </div>
+        </header>
     )
 }
 
