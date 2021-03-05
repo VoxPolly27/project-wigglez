@@ -9,7 +9,7 @@ namespace Domain
 
         public string Context {get; set;} //Setting
 
-        public string Content {get ; set;} //Wat transpired 
+        public string Content {get ; set;} //What transpired 
 
         public string Tags {get;set;} //A way of referencing thoughts
 
